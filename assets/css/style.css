@@ -34,7 +34,7 @@ body {
 a {
     font-size: 20px;
     padding: 20px;
-    color: #2f2d2d !important;
+    color: #d6d199 !important;
 }
 
 .navbar-default .navbar-collapse {
@@ -152,6 +152,32 @@ a {
 
 
 
+/* ------------------------------------------------------------------- About SLIDER*/
+
+.fill {
+    height: 100vh;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: #d6d199;
+}
+
+.fill h2, p {
+    color: #d6d199;
+}
+
+.fill p {
+    font-size: 18px;
+}
+
+
+
 /* ------------------------------------------------------------------- Footer */
 
 footer {
@@ -205,77 +231,6 @@ footer {
 
 
 
-/* ------------------------------------------------------------------- About SLIDER*/
-
-.carousel-item1 {
-    height: 100vh;
-    background: url("/assets/images/allabout.jpeg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-}
-
-.carousel-item2 {
-    height: 100vh;
-    background: url("/assets/images/micky-dolenz.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-}
-
-.carousel-item3 {
-    height: 100vh;
-    background: url("/assets/images/mike-nesmith.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-}
-
-.carousel-item4 {
-    height: 100vh;
-    background: url("/assets/images/peter.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-}
-
-.carousel-item5 {
-    height: 100vh;
-    background: url("/assets/images/davy-jones.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-}
-
-.about-container {
-    text-align: center;
-}
-
 
 
 /* ------------------------------------------------------------------- Media */
@@ -292,9 +247,5 @@ footer {
         color: #685c34 !important;
     }
 
-    .image-container-about {
-        background-image: url(/assets/images/aboutpink.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+
 }
