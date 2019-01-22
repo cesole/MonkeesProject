@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>The Monkeys</title>
+</head>
+
+<body>
+    <header class="media-header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">
+                   <img src="../assets/images/monkees-header-logo.png" width="100px" height="auto" alt="The Monkeys Logo">
+                </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--CONTACT-->
+
+    <section class="container-fluid contact-container">
+        <div class="row">
+            <div class="contact-heading">
+                <h2>Got an upcoming event?</h2>
+                <p>Let us know!<p>
+            </div>
+            <div class="center-form">
+                <form>
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <input type="tel" name="homephone" class="form-control" id="homephone" placeholder="Phone Number" required/>
+                    <input type="datetime-local" name="date-time" class="form-control" id="date-time" placeholder="Date & Time of Event" required/>
+                    <select name="event-type" class="form-control" id="event-type" placeholder="Event Type" required>
+                        <option value="" disabled selected>*Please select</option>
+                        <option value="concert">Concert</option>
+                        <option value="festival">Festival</option>
+                        <option value="party">Party</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="other">Other (please specify in message below)</option>
+                    </select>
+                    <textarea rows="5" name="address1" class="form-control" id="address1" placeholder="Venue Address"></textarea>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description"></textarea>
+                    <button type="Submit" class="btn btn-secondary center-block">Send Project Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="container-fluid">
+        <div class="footer-details">
+            <ul class="list-inline social-links">
+                <li><a target="_blank" href="https://www.facebook.com/TheMonkees"><i class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/MonkeesOfficial"><i class="fa fa-twitter"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/themonkees/"><i class="fa fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>

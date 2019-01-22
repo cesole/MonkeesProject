@@ -49,11 +49,6 @@ a {
     background-color: transparent;
 }
 
-.navbar .navbar-brand {
-    font-weight: bold;
-    color: white;
-}
-
 .navbar .navbar-brand:hover {
     color: #f3df05 !important;
 }
@@ -80,16 +75,17 @@ a {
 /* ------------------------------------------------------------------- Image Container */
 
 .image-container {
-    height: 100vh;
+    height: 900px;
     background: url("/assets/images/about2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     display: flex;
     align-items: center;
     position: relative;
+    background-position: top;
     justify-content: center;
+    background-size: 100% 900px;
 }
 
 .opaque-overlay {
@@ -114,7 +110,7 @@ a {
 
 .jumbotron {
     background-color: transparent;
-    margin-top: 500px;
+    margin-top: 300px;
 }
 
 .jumbotron h1 {
@@ -150,6 +146,94 @@ a {
 }
 
 
+/* ------------------------------------------------------------------- Index News */
+
+.container--red {
+    background-color: #8c1326;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container--red p {
+    padding: 10px;
+}
+
+.btn--red {
+    border-radius: 23px;
+    width: 160px;
+    background-color: #d6d199;
+    color: #8c1326 !important;
+    font-weight: bold;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  text-align: center;
+}
+
+/* Modal Content */
+.content {
+  background-color: #808080;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+.modal-content h3 {
+    font-size: 16px;
+}
+
+/* ------------------------------------------------------------------- Index Events */
+
+.container--blue {
+    background-color: #3d87a2;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container--blue p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn--blue {
+    border-radius: 23px;
+    width: 160px;
+    background-color: #d6d199;
+    color: #3d87a2 !important;
+    font-weight: bold;
+}
+
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+    background-color: #50c9f5;
+    border-color: #df4929;
+}
+
+
 
 
 /* ------------------------------------------------------------------- About SLIDER*/
@@ -173,7 +257,7 @@ a {
 }
 
 .fill p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -182,16 +266,16 @@ a {
 /* ------------------------------------------------------------------- Audio & Video*/
 
 .playlist-container {
-    height: 100vh;
-    background: url("/assets/images/monkees.jpg") no-repeat center center fixed;
+    background: url("/assets/images/red.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
+    background-size: 100% 1000;
+    color: #d6d199;
 }
 
 .features-container {
@@ -200,22 +284,25 @@ a {
     
 }
 
-.feature h2 {
-    padding-bottom: 15px;
-    color: #d6d199;
+.spotify {
+    display:inline;
+}
+
+.spotify iframe {
+    padding: 10px;
 }
 
 .video-container {
-    height: 100vh;
-    background: url("/assets/images/monkees.jpg") no-repeat center center fixed;
+    background: url("/assets/images/red.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
+    background-size: 100%, 500px;
+    padding-bottom: 50px;
 }
 
 
@@ -234,7 +321,76 @@ a {
     justify-content: center;
 }
 
+.spotify p {
+    font-size: 18px;
+    color: #f3df05;
+    font-weight: bold;
+}
 
+.album a i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #636363;
+    margin: 15px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.album a i:hover {
+    background: #f3df05;
+    color: #808080;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------- Contact */
+
+.contact-container {
+    background: url("/assets/images/red.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contact-heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #d6d199;
+}
+
+.contact-heading p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
 
 
 
@@ -299,6 +455,7 @@ footer {
         background-image: url(/assets/images/the-monkees-1966.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-size: 100% 500px;
     }
 
     .nav li, a {
@@ -306,9 +463,15 @@ footer {
     }
     
     .playlist-container {
-        background-image: url(/assets/images/the-monkees-1966.jpg);
+        background-image: url(/assets/images/guitar.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
+    }
+    
+    .video-container {
+        background-image: url(/assets/images/guitar.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     
 }
