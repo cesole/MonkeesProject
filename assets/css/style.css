@@ -76,7 +76,7 @@ a {
 
 .image-container {
     height: 900px;
-    background: url("/assets/images/about2.jpg") no-repeat center center fixed;
+    background: url("assets/images/about2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -273,7 +273,7 @@ a {
 /* ------------------------------------------------------------------- Audio & Video*/
 
 .playlist-container {
-    background: url("/assets/images/red.jpg") no-repeat center center fixed;
+    background: url("assets/images/red.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -301,7 +301,7 @@ a {
 }
 
 .video-container {
-    background: url("/assets/images/red.jpg") no-repeat center center fixed;
+    background: url("assets/images/red.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -369,7 +369,7 @@ a {
 /* ------------------------------------------------------------------- Contact */
 
 .contact-container {
-    background: url("/assets/images/peace.jpg") no-repeat center center fixed;
+    background: url("assets/images/peace.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -474,7 +474,7 @@ footer {
 
 @media (max-width: 1024px) {
     .image-container {
-        background-image: url(/assets/images/the-monkees-1966.jpg);
+        background-image: url(assets/images/the-monkees-1966.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 100% 500px;
@@ -485,13 +485,13 @@ footer {
     }
     
     .playlist-container {
-        background-image: url(/assets/images/guitar.jpeg);
+        background-image: url(assets/images/guitar.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     
     .video-container {
-        background-image: url(/assets/images/guitar.jpeg);
+        background-image: url(assets/images/guitar.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -503,7 +503,7 @@ footer {
     }
     
     .contact-container {
-    background: url("/assets/images/faces.jpg");
+    background: url("assets/images/faces.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     }
