@@ -22,19 +22,12 @@ And finally, they will find some information of the band and their band members.
 2. footer: has all the social links of the band inluding "The Monkees" Youtube page.
 
 ## Technologies
-<dl>
- <dt>HTML5</dt>
- 
- <dt>CSS3</dt>
- 
- <dt>BOOTSTRAP 3.3 (css, JS, Components)</dt>
- 
- <dt>Fontawesome (for "Keep updated!" in Home page section icons)</dt>
- 
- <dt>Hover.css (for hovering effects)</dt>
- 
- <dt>JQuery</dt>
- </dl>
+* HTML5
+* CSS3
+* BOOTSTRAP 3.3 (css, JS, Components)
+* Fontawesome (for "Keep updated!" in Home page section icons)
+* Hover.css (for hovering effects)
+* JQuery
  
 ## Testing
 >Testing tools used to verify codes:
@@ -42,15 +35,10 @@ And finally, they will find some information of the band and their band members.
 
 >The website has been testing in different screen sizes to make sure is responsive. 
 Differences depending on screen sizes:
-<dl>
- <dt>The nav is toggled in sm and xs devices</dt>
- 
- <dt>In home page realingment of the different sections to suit the screen size</dt>
- 
- <dt>In about page in order for the user having a better experience, I changed some of the pictures in the smaller devices.</dt>
- 
- <dt>In media page realingment of music and videos in Listen page to suit screen size</dt>
-</dl>
+* The nav is toggled in sm and xs devices
+* In home page realingment of the different sections to suit the screen size
+* In about page in order for the user having a better experience, I changed some of the pictures in the smaller devices.
+* In media page realingment of music and videos in Listen page to suit screen size
 
 ## Deployment
 Published on GitHub, and built in Cloud9.
