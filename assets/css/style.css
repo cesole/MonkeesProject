@@ -477,7 +477,6 @@ footer {
         background-image: url(../images/the-monkees-1966.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
     }
 
     .nav li, a {
@@ -488,14 +487,12 @@ footer {
         background-image: url(../images/guitar.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
     }
     
     .video-container {
         background-image: url(../images/guitar.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
     }
     
     .media-body iframe {
