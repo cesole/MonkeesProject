@@ -129,6 +129,7 @@ a {
 
 
 
+
 /* ------------------------------------------------------------------- Index Player */
 
 .player {
@@ -350,6 +351,10 @@ a {
     color: #808080;
 }
 
+.media-body iframe {
+    width: 420px;
+    height: 315px;
+}
 
 
 
@@ -357,7 +362,7 @@ a {
 /* ------------------------------------------------------------------- Contact */
 
 .contact-container {
-    background: url("/assets/images/red.jpg") no-repeat center center fixed;
+    background: url("/assets/images/peace.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -372,6 +377,7 @@ a {
     margin-top: 25px;
     margin-bottom: 20px;
     color: #d6d199;
+    text-align: center;
 }
 
 .contact-heading p {
@@ -380,17 +386,19 @@ a {
 }
 
 .center-form {
-    padding-top: 10px;
+    padding: 10px;
     margin: 0 auto;
-    max-width: 70%;
 }
+
+
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #e84610;
-    color: #fafafa;
+    background-color: #8c1326;
+    color: #d6d199;
 }
+
 
 
 
@@ -474,4 +482,10 @@ footer {
         background-size: cover;
     }
     
+    .media-body iframe {
+    width: 340px;
+    height: 225px;
+    padding-bottom: 15px;
+    }
+
 }

@@ -42,18 +42,21 @@
     <!--CONTACT-->
 
     <section class="container-fluid contact-container">
-        <div class="row">
-            <div class="contact-heading">
-                <h2>Got an upcoming event?</h2>
-                <p>Let us know!<p>
-            </div>
-            <div class="center-form">
-                <form>
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <input type="tel" name="homephone" class="form-control" id="homephone" placeholder="Phone Number" required/>
-                    <input type="datetime-local" name="date-time" class="form-control" id="date-time" placeholder="Date & Time of Event" required/>
-                    <select name="event-type" class="form-control" id="event-type" placeholder="Event Type" required>
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="container content-container">
+            <div class="row">
+                <div class="contact-heading">
+                    <h2>Got an upcoming event?</h2>
+                    <p>Let us know!
+                        <p>
+                </div>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                        <input type="tel" name="homephone" class="form-control" id="homephone" placeholder="Phone Number" required/>
+                        <input type="datetime-local" name="date-time" class="form-control" id="date-time" placeholder="Date & Time of Event" required/>
+                        <select name="event-type" class="form-control" id="event-type" placeholder="Event Type" required>
                         <option value="" disabled selected>*Please select</option>
                         <option value="concert">Concert</option>
                         <option value="festival">Festival</option>
@@ -61,10 +64,11 @@
                         <option value="wedding">Wedding</option>
                         <option value="other">Other (please specify in message below)</option>
                     </select>
-                    <textarea rows="5" name="address1" class="form-control" id="address1" placeholder="Venue Address"></textarea>
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description"></textarea>
-                    <button type="Submit" class="btn btn-secondary center-block">Send Project Request</button>
-                </form>
+                        <textarea rows="5" name="address1" class="form-control" id="address1" placeholder="Venue Address"></textarea>
+                        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description"></textarea>
+                        <button type="Submit" class="btn btn-secondary center-block">Send Request</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
