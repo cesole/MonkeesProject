@@ -476,7 +476,7 @@ footer {
     .image-container {
         background-image: url(../images/the-monkees-1966.jpg);
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
     }
 
     .nav li, a {
@@ -504,7 +504,7 @@ footer {
     .contact-container {
     background: url("../images/faces.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     }
     
     .modal-content {
