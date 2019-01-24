@@ -32,6 +32,7 @@ And finally, they will find some information of the band and their band members.
 ## Testing
 >Testing tools used to verify codes:
 * Chrome DevTools 
+* Responsinator
 
 >The website has been testing in different screen sizes to make sure is responsive. 
 Differences depending on screen sizes:
