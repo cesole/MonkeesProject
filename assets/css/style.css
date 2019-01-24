@@ -486,7 +486,7 @@ footer {
     .playlist-container {
         background-image: url(../images/guitar.jpeg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
     }
     
     .video-container {
