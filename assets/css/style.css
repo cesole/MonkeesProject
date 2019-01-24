@@ -486,13 +486,13 @@ footer {
     .playlist-container {
         background-image: url(../images/guitar.jpeg);
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
     }
     
     .video-container {
         background-image: url(../images/guitar.jpeg);
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
     }
     
     .media-body iframe {
