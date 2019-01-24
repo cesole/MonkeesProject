@@ -476,7 +476,7 @@ footer {
     .image-container {
         background-image: url(../images/the-monkees-1966.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
     }
 
     .nav li, a {
@@ -492,7 +492,7 @@ footer {
     .video-container {
         background-image: url(../images/guitar.jpeg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
     }
     
     .media-body iframe {
@@ -504,7 +504,7 @@ footer {
     .contact-container {
     background: url("../images/faces.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     }
     
     .modal-content {
